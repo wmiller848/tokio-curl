@@ -17,7 +17,7 @@ travis-ci = { repository = "tokio-rs/tokio-curl" }
 appveyor = { repository = "alexcrichton/tokio-curl" }
 
 [dependencies]
-curl = "0.4.1"
+curl = { git = "https://github.com/wmiller848/curl-rust.git" }
 futures = "0.1.6"
 tokio-core = "0.1.1"
 log = "0.3"
